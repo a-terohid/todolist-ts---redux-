@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.Todo{
+    display: flex;
+    margin: 15px;
+}
+
+.todo{
+    width: 330px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+}
+
+.check , .trash{
+    font-size: 37px;
+    border-radius: 5px;
+    margin: 4px 0 0 10px;
+    color: #EFEFEF;
+    cursor: pointer;
+}
+
+.trash{
+    background-color: #DA1212;
+}
+
+.trash:hover , .check:hover{
+    opacity: 0.9;
+    font-size: 40px;
+}
+
+.check{
+    background-color: #005555;
+}
+
+.checked{
+    text-decoration: line-through;
+    opacity: 0.5;
+    width: 330px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
